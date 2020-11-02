@@ -139,6 +139,16 @@ The first three bytes are OUI's,  they represent the manufacter of the NIC. And 
 
 A subnet is a subnetwork that follows the IP. Subnetting means the splitting up a set of consecutive IP addresses for addressing on separate physical networks.
 
+### Subnet Mask Sheet
+
+| Hosts           | 128     | 64      | 32      | 16      | 8       | 4       | 2       | 1       |
+|:---------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| **Subnet Mask** | **128** | **192** | **244** | **240** | **248** | **252** | **254** | **255** |
+
+The hosts is just the lasts iteration devided by two starting from 128. And the subnet is the last host and the current host.
+
+### Subnet Sheet
+
 | Subnet Mask | 128           | 192           | 224          | 240         | 248         | 252        | 254        | 255        |
 |:-----------:|:-------------:|:-------------:|:------------:|:-----------:|:-----------:|:----------:|:----------:|:----------:|
 | Subnet      | X.0.0.0       |               |              |             |             |            |            |            |
