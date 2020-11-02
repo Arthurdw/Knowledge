@@ -145,7 +145,7 @@ A subnet is a subnetwork that follows the IP. Subnetting means the splitting up 
 |:---------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | **Subnet Mask** | **128** | **192** | **244** | **240** | **248** | **252** | **254** | **255** |
 
-The hosts is just the lasts iteration devided by two starting from 128. And the subnet is the last host and the current host.
+The hosts is just the last iteration devided by two starting from 128. And the subnet is the last subnet mask and the current host.
 
 ### Subnet Sheet
 
